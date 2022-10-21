@@ -4,7 +4,6 @@ import JokeForm from './components/JokeForm';
 import Tabs from './components/Tabs';
 import JokeStates from './JokeState/JokeStates'
 import Jokes from './components/Jokes';
-import axios from 'axios';
 
 function App() {
   const API_URL = "https://api.chucknorris.io/jokes/random"
